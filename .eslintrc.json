@@ -1,0 +1,71 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
+        "key-spacing": [2, {
+            "singleLine": {
+                "beforeColon": true,
+                "afterColon": true
+            },
+            "multiLine": {
+                "beforeColon": true,
+                "afterColon": true,
+                "align": "colon"
+            }
+        }],
+        "array-bracket-spacing": ["error", "always", { "arraysInArrays": false }],
+        "space-in-parens": ["error", "always", { "exceptions": ["{}", "[]"] }],
+        "object-curly-spacing": ["error", "never", { "objectsInObjects": true,"arraysInObjects": true }],
+        "block-spacing": "error",
+        "arrow-body-style": ["error", "as-needed", { "requireReturnForObjectLiteral": true }],
+        "arrow-parens":  ["error", "as-needed"],
+        "arrow-spacing": "error",
+        "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
+        "rest-spread-spacing": ["error", "always"],
+        "comma-spacing": ["error", { "before": true, "after": true }],
+        "no-confusing-arrow": "error",
+        "no-multiple-empty-lines": ["error", { "max": 2, "maxBOF": 1}],
+        "no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
+        "no-trailing-spaces": ["error", { "ignoreComments": true }],
+        "no-unused-vars": "off",
+        "no-unused-labels": "off",
+        "no-constant-condition": "off",
+        "no-undef":"off",
+        "no-whitespace-before-property": "error",
+        "space-infix-ops":"error",
+        "space-before-blocks":"error",
+        "function-call-argument-newline": ["error", "consistent"],
+        "lines-between-class-members": ["error", "always"],
+        "nonblock-statement-body-position": ["error", "beside"],
+        "padded-blocks": ["error", "always", { "allowSingleLineBlocks": true }],
+        "template-tag-spacing": ["error", "always"]
+        
+    }
+}
