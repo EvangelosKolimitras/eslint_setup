@@ -1,0 +1,23 @@
+{
+  "name": "eslint-setup",
+  "version": "1.0.0",
+  "description": "My eslint for js setup",
+  "main": "eslint.js",
+  "scripts": {
+    "fix": "eslint --fix"
+  },
+  "repository": "git+https://github.com/EvangelosKolimitras/eslint.git",
+  "keywords": [
+    "eslint",
+    "js"
+  ],
+  "author": "Evangelos Kolimitras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvangelosKolimitras/eslint/issues"
+  },
+  "homepage": "https://github.com/EvangelosKolimitras/eslint#readme",
+  "dependencies": {
+    "eslint": "^6.4.0"
+  }
+}
